@@ -5,9 +5,10 @@ async function main() {
     mongoose.set("strictQuery", true);
 
     await mongoose.connect(
-      "mongodb+srv://leandro:672758lc@cluster0.3ertyvp.mongodb.net/?retryWrites=true&w=majority"
+      "mongodb+srv://matheus:bzCjl5MYrVPppveR@cluster0.tskbha0.mongodb.net/?retryWrites=true&w=majority"
     );
-    console.log("Conectado ao banco");
+
+    console.log("Conectado!");
   } catch (error) {
     console.log(`Erro: ${error}`);
   }

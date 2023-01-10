@@ -19,7 +19,7 @@ const partySchema = new Schema(
       required: true,
     },
     budget: {
-      type: String,
+      type: Number,
       required: true,
     },
     image: {

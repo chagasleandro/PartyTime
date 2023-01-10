@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 
-const serviceSchema = newSchema(
+const serviceSchema = new Schema(
   {
     name: {
       type: String,
@@ -16,10 +16,7 @@ const serviceSchema = newSchema(
       type: Number,
       required: true,
     },
-    image: {
-      type: String,
-      required: true,
-    },
+    image: String,
   },
   { timestamps: true }
 );
